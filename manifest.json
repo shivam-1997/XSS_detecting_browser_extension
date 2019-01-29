@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Script Tag Checker",
+  "version": "1.0",
+  "description": "This extension will block the request if any of the input provided by user contains Script tag.",
+
+    "background": {
+      "scripts":  ["background.js"],
+      "persistent": true
+    },
+
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+      ]
+}
